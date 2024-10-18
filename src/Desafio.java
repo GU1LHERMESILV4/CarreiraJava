@@ -30,10 +30,10 @@ public class Desafio {
             if (opcao == 1){
                 System.out.println("O saldo atualizado é " + saldo);
             } else if (opcao == 2) {
-                System.out.println("Qual o valor que deseja tranferir");
+                System.out.println("Qual o valor que deseja transferir");
                 double valor = leitura.nextDouble();
                 if (valor > saldo){
-                    System.out.println("Não há saldo para realizar tranferência");
+                    System.out.println("Não há saldo para realizar transferência");
                 } else{
                     saldo -= valor;
                     System.out.println("Novo saldo " + saldo);
